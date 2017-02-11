@@ -4,7 +4,7 @@ import time
 
 time.sleep(1)
 
-WLAN_SSID = 'WLAN_AP2'
+WLAN_SSID = 'ssid of your wlan ap'
 WLAN_PSK = 'your password'
 wlan = network.WLAN(network.STA_IF)
 wlan.scan()
